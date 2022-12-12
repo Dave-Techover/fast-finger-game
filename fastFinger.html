@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fast finger</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header>
+		<h1>Fast Finger</h1>
+		<h3>How many times can you click the button before the time runs out?</h3>	
+	</header>
+
+	<section class="start-container">
+		<h4>Select a level</h4>
+
+		<select class="levels">
+			<option value="easy">Easy</option>
+			<option value="normal">Normal</option>
+			<option value="hard">Hard</option>
+			<option value="expert">Expert</option>
+		</select>
+
+		<button class="start-btn">Start!</button>
+	</section>
+
+	<section class="game-container hide">
+		<p>Time left: <span class="timer-display"></span> second(s)</p>
+		<button class="tap-btn">Click me</button>
+		<p>Score: <span class="click-count"></span></p>
+		<p class="high-score-alert hide">New High Score!!!</p>
+		<p>High Score: <span class="high-score"></span></p>
+		<p><button class="restart-btn">Restart</button></p>
+	</section>
+
+<script type="text/javascript" src="main.js"></script>	
+</body>
+</html>

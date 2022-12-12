@@ -1,0 +1,9 @@
+body{
+	text-align: center;
+	color: white;
+	background-color: blueviolet;
+}
+
+.hide{
+	display: none;
+}
