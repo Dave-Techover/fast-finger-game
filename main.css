@@ -4,6 +4,50 @@ body{
 	background-color: blueviolet;
 }
 
+.levels{
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.levels:focus{
+	outline: 1px solid lightgrey;
+}
+
+.start-btn{
+	background-color: #000;
+	color: #3eb4dd;
+	border: none;
+	border-radius: 5px 5px 20px 20px;
+	width: 70px;
+	height: 30px;
+}
+
+.start-btn:hover{
+	background-color: #fff;
+	color: #3eb4dd;
+}
+
+
+.tap-btn{
+	width: 200px;
+	height: 160px;
+	background-color: gold;
+	color: blueviolet;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.tap-btn:disabled{
+	background-color: white;
+	color: gold;
+	border: 2px solid gold;
+	border-radius: 10px;
+}
+
 .hide{
 	display: none;
 }
