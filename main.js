@@ -8,16 +8,16 @@ let playerScore           = 0,
 	isPlaying;
 
 // DOM VARAIBLES
-const tapBtn = document.querySelector(".tap-btn"),
-	  levels = document.querySelector(".levels"),	
-	  startBtn = document.querySelector(".start-btn"),
-	  restartBtn = document.querySelector(".restart-btn"),
+const tapBtn            = document.querySelector(".tap-btn"),
+	  levels            = document.querySelector(".levels"),	
+	  startBtn          = document.querySelector(".start-btn"),
+	  restartBtn        = document.querySelector(".restart-btn"),
 	  clickCountDisplay = document.querySelector(".click-count"),
-	  highScoreDisplay = document.querySelector(".high-score"),
+	  highScoreDisplay  = document.querySelector(".high-score"),
 	  newHighScoreAlert = document.querySelector(".high-score-alert"),
-	  timerDisplay = document.querySelector(".timer-display"),
-	  gameContainer = document.querySelector(".game-container"),
-	  startContainer = document.querySelector(".start-container");
+	  timerDisplay      = document.querySelector(".timer-display"),
+	  gameContainer     = document.querySelector(".game-container"),
+	  startContainer    = document.querySelector(".start-container");
 
 // PICK GAME DIFFICULTY
 const gameDifficulty = () => {
